@@ -40,34 +40,55 @@
     <!--    Main Content-->
     <!-- ===============================================-->
     <main class="main" id="top">
-      <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3 d-block" data-navbar-on-scroll="data-navbar-on-scroll">
-        <div class="container"><a class="navbar-brand d-inline-flex" href="index.html"><img class="card-img" src="assets/img/gallery/logo.png" alt="..." /><span class="fs-2 fw-bold text-primary ms-2">TRAKINDO <span class="text-blue">TRAINING CENTER</span></span></a>
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top py-5 d-block border-bottom border-10 border-yellow" data-navbar-on-scroll="data-navbar-on">
+        <div class="container"><a class="navbar-brand d-inline-flex" href="index.html"><span class="fs-2 fw-bold text-primary ms-2">TRAKINDO <span class="text-black">TRAINING CENTER</span></span></a>
           <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
           <div class="collapse navbar-collapse border-top border-lg-0 mt-4 mt-lg-0" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item px-2"><a class="nav-link fw-bold" aria-current="page" href="index.html">Home</a></li>
-              <li class="nav-item px-2"><a class="nav-link fw-bold" href="#howitworks">Tour</a></li>
-              <li class="nav-item px-2"><a class="nav-link fw-bold" href="#services">About</a></li>
-              <li class="nav-item px-2"><a class="nav-link fw-bold" href="#packages">Contact</a></li>
+              <li class="nav-item px-2"><a class="nav-link fw-bold" aria-current="page" href="index.html">HOME</a></li>
+              <li class="nav-item px-2"><a class="nav-link fw-bold" href="#howitworks">SERVICE</a></li>
+              <li class="nav-item px-2"><a class="nav-link fw-bold" href="#howitworks">TOUR</a></li>
+              <li class="nav-item px-2"><a class="nav-link fw-bold" href="#services">ABOUT</a></li>
+              <li class="nav-item px-2"><a class="nav-link fw-bold" href="#packages">CONTACT</a></li>
             </ul>
             <form class="ms-lg-5"><a class="btn btn-primary" href="#!">Get started</a></form>
+            <!-- <div class="navbar navbar-expand-lg navbar-light border-bottom">
+              <img class="card-img" src="assets/img/icons/bar.png" alt="..." />
+            </div> -->
           </div>
         </div>
       </nav>
-      <section class="py-0" id="header">
+
+      <section class="py-10" id="header">
+
         <div class="container">
+          <div class="bg-holder z-index--1 rounded-3" style="background-image:url(assets/img/gallery/cta-bg.png);background-position:center;background-size:cover;">
+          </div>
+          <!--/.bg-holder-->
+
+          <div class="row align-items-center flex-center py-5">
+            <div class="col-12 text-center">
+              <h1 class="lh-sm fs-lg-6 fs-xxl-7">Welcome to Trakindo  <br /> Training Center </h1>
+              <p class="text-700">A More Interesting and Interactive Learning Experience </p>
+              <div class="mt-5"><a class="btn btn-sm btn-primary rounded-pill" href="#!"><i class="fas fa-camera me-2"></i>Start Tour</a></div>
+            </div>
+          </div>
+        </div><!-- end of .container-->
+
+        <!-- <div class="container">
           <div class="row align-items-center min-vh-75 min-vh-md-50">
             <div class="col-12 text-center py-8">
               <h1 class="lh-sm fs-lg-6 fs-xxl-7">Welcome to Trakindo  <br /> Training Center </h1>
               <p class="text-700">A More Interesting and Interactive Learning Experience </p>
-              <div class="mt-5"><a class="btn btn-sm btn-warning rounded-pill" href="#!"><i class="fas fa-camera me-2"></i>Start Tour</a></div>
+              <div class="mt-5"><a class="btn btn-sm btn-primary rounded-pill" href="#!"><i class="fas fa-camera me-2"></i>Start Tour</a></div>
             </div>
           </div>
-        </div>
-        <div class="container-fluid">
+        </div> -->
+        <!-- container-fluid use swiper slide full -->
+        <div class="container py-5">  
           <div class="row gx-2">
             <div class="col-12">
-              <div class="swiper-container pb-5 overflow-hidden" data-pagination-target="pagination1">
+              <div class="swiper-container pb-4 overflow-hidden" data-pagination-target="pagination1">
                 <div class="swiper-wrapper">
                   <div class="swiper-slide h-auto"><img class="rounded-3 w-100" src="assets/img/gallery/product-1.jpg" alt="products" />
                   </div>
@@ -91,11 +112,11 @@
 
       <!-- ============================================-->
       <!-- <section> begin ============================-->
-      <section class="py-6">
+      <section class="py-3">
 
         <div class="container">
           <div class="row justify-content-center">
-            <div class="col-6 d-flex flex-center"><img src="assets/img/gallery/logo_trakindo.png" alt="brands" /></div>
+            <div class="col-6 d-flex flex-center"><img src="" alt="" /></div>
           </div>
           <div class="row">
             <div class="col-12">
@@ -104,11 +125,11 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-sm-6 col-lg mb-4 mb-lg-0 d-flex flex-center"><img src="assets/img/gallery/netflix.png" alt="brands" /></div>
+            <!-- <div class="col-sm-6 col-lg mb-4 mb-lg-0 d-flex flex-center"><img src="assets/img/gallery/netflix.png" alt="brands" /></div>
             <div class="col-sm-6 col-lg mb-4 mb-lg-0 d-flex flex-center"><img src="assets/img/gallery/facebook.png" alt="brands" /></div>
             <div class="col-sm-6 col-lg mb-4 mb-lg-0 d-flex flex-center"><img src="assets/img/gallery/freelancer.png" alt="brands" /></div>
             <div class="col-sm-6 col-lg mb-4 mb-lg-0 d-flex flex-center"><img src="assets/img/gallery/mailbluster.png" alt="brands" /></div>
-            <div class="col-sm-6 col-lg mb-4 mb-lg-0 d-flex flex-center"><img src="assets/img/gallery/theme-wagon.png" alt="brands" /></div>
+            <div class="col-sm-6 col-lg mb-4 mb-lg-0 d-flex flex-center"><img src="assets/img/gallery/theme-wagon.png" alt="brands" /></div> -->
           </div>
           <hr class="mt-6" />
         </div><!-- end of .container-->
@@ -131,21 +152,21 @@
           <div class="row mt-6">
             <div class="col-12 col-md-4 d-flex flex-column align-items-center">
               <div class="badge badge-circle bg-soft-primary flex-center">
-                <div class="text-primary fs-7 font-base">1</div>
+                <div class="text-black fs-7 font-base">1</div>
               </div>
               <h5 class="text-primary text-center mt-3">Inform us about your product </h5>
               <p class="text-center mx-xl-7">Introduce your product, select through the pricing plan and let us know if you have any references in mind</p>
             </div>
             <div class="col-12 col-md-4 d-flex flex-column align-items-center">
-              <div class="badge badge-circle bg-soft-warning flex-center">
-                <div class="text-warning fs-7 font-base">2</div>
+              <div class="badge badge-circle bg-soft-primary flex-center">
+                <div class="text-black fs-7 font-base">2</div>
               </div>
               <h5 class="text-primary text-center mt-3">Deliver your products </h5>
               <p class="text-center mx-xl-7">Deliver the sujects at our doorstep, we will click perfect shots in no time and make it online ready</p>
             </div>
             <div class="col-12 col-md-4 d-flex flex-column align-items-center">
-              <div class="badge badge-circle bg-soft-success flex-center">
-                <div class="text-success fs-7 font-base">3 </div>
+              <div class="badge badge-circle bg-soft-primary flex-center">
+                <div class="text-black fs-7 font-base">3</div>
               </div>
               <h5 class="text-primary text-center mt-3">Reviewing the shots</h5>
               <p class="text-center mx-xl-7">After the photoshoot, you will get to review the shots and let us know if there any modification needed.</p>
@@ -159,7 +180,7 @@
       <!-- ============================================-->
 
 
-      <section class="pb-7 pt-5" id="testimonial">
+      <section class="pb-10 pt-5" id="testimonial">
         <div class="container-xxl">
           <div class="row flex-center h-100">
             <div class="col-12">
@@ -242,22 +263,22 @@
               <div class="tab-pane fade show active" id="nav-food" role="tabpanel" aria-labelledby="nav-food-tab">
                 <div class="row gx-3">
                   <div class="col-sm-6 col-md-4 mb-3 h-100">
-                    <div class="card card-span h-100 text-white"><img class="rounded-3 h-100" src="assets/img/gallery/food-1.png" alt="..." /><a class="stretched-link" href="#!"></a></div>
+                    <div class="card card-span h-100 text-white"><img class="rounded-3 h-100" src="assets/img/gallery/cat1.jpg" alt="..." /><a class="stretched-link" href="#!"></a></div>
                   </div>
                   <div class="col-sm-6 col-md-4 mb-3 h-100">
-                    <div class="card card-span h-100 text-white"><img class="rounded-3 h-100" src="assets/img/gallery/food-2.png" alt="..." /><a class="stretched-link" href="#!"></a></div>
+                    <div class="card card-span h-100 text-white"><img class="rounded-3 h-100" src="assets/img/gallery/cat2.jpg" alt="..." /><a class="stretched-link" href="#!"></a></div>
                   </div>
                   <div class="col-sm-6 col-md-4 mb-3 h-100">
-                    <div class="card card-span h-100 text-white"><img class="rounded-3 h-100" src="assets/img/gallery/food-3.png" alt="..." /><a class="stretched-link" href="#!"></a></div>
+                    <div class="card card-span h-100 text-white"><img class="rounded-3 h-100" src="assets/img/gallery/cat3.jpg" alt="..." /><a class="stretched-link" href="#!"></a></div>
                   </div>
                   <div class="col-sm-6 col-md-4 mb-3 h-100">
-                    <div class="card card-span h-100 text-white"><img class="rounded-3 h-100" src="assets/img/gallery/food-4.png" alt="..." /><a class="stretched-link" href="#!"></a></div>
+                    <div class="card card-span h-100 text-white"><img class="rounded-3 h-100" src="assets/img/gallery/cat4.jpg" alt="..." /><a class="stretched-link" href="#!"></a></div>
                   </div>
                   <div class="col-sm-6 col-md-4 mb-3 h-100">
-                    <div class="card card-span h-100 text-white"><img class="rounded-3 h-100" src="assets/img/gallery/food-5.png" alt="..." /><a class="stretched-link" href="#!"></a></div>
+                    <div class="card card-span h-100 text-white"><img class="rounded-3 h-100" src="assets/img/gallery/cat5.jpg" alt="..." /><a class="stretched-link" href="#!"></a></div>
                   </div>
                   <div class="col-sm-6 col-md-4 mb-3 h-100">
-                    <div class="card card-span h-100 text-white"><img class="rounded-3 h-100" src="assets/img/gallery/food-6.png" alt="..." /><a class="stretched-link" href="#!"></a></div>
+                    <div class="card card-span h-100 text-white"><img class="rounded-3 h-100" src="assets/img/gallery/cat6.jpg" alt="..." /><a class="stretched-link" href="#!"></a></div>
                   </div>
                   <div class="col-12 d-flex justify-content-center mt-5"> <a class="btn btn-lg btn-outline-warning rounded-pill" href="#!">View portfolio<i class="fas fa-arrow-right ms-2"></i></a></div>
                 </div>
@@ -391,26 +412,38 @@
           <div class="row">
             <h1 class="text-center lh-sm mb-5 fs-lg-6 fs-xxl-7">Our Services</h1>
             <div class="col-12">
-              <div class="card mb-3 hover-top-shadow rounded-3 py-3 bg-soft-primary">
+              <div class="card mb-3 hover-top-shadow rounded-3 py-3 bg-soft-dark">
                 <div class="row g-0 flex-center">
-                  <div class="col-md-5 col-lg-4 text-center order-0"><img class="text-center w-100" src="assets/img/gallery/services-shoe-blue.png" alt="..." /></div>
+                  <div class="col-md-5 col-lg-4 text-center order-0"><img class="text-center w-50" src="assets/img/gallery/services-our2.png" alt="..." /></div>
                   <div class="col-md-7 col-lg-8">
                     <div class="card-body ps-5 p-lg-8">
-                      <h2 class="card-title mb-4 text-primary">Photo Preview</h2>
+                      <h2 class="card-title mb-4 text-black">Photo Preview</h2>
                       <p class="card-text mb-4 fs-1 pe-xxl-8">Invest on your commercial product photography on a visual story created by our creative team. Each click at the most reasonable price going to pay you more.</p>
-                      <div class="d-flex flex-row"><a class="btn px-0 me-3 text-primary" href="#!">View portfolio<i class="fas fa-arrow-right ms-2"></i></a><a class="btn text-primary" href="#!">Pricing<i class="fas fa-arrow-right hvr-icon-forward ms-2"></i></a></div>
+                      <div class="d-flex flex-row"><a class="btn px-0 me-3 text-black" href="#!">View portfolio<i class="fas fa-arrow-right ms-2"></i></a><a class="btn text-black" href="#!">Pricing<i class="fas fa-arrow-right hvr-icon-forward ms-2"></i></a></div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="card mb-3 hover-top-shadow rounded-3 py-3 bg-soft-success">
+              <div class="card mb-3 hover-top-shadow rounded-3 py-3 bg-soft-dark">
                 <div class="row g-0 flex-center">
-                  <div class="col-md-5 col-lg-4 text-center order-lg-1"><img class="text-center w-100" src="assets/img/gallery/services-shoe-green.png" alt="..." /></div>
+                  <div class="col-md-5 col-lg-4 text-center order-lg-1"><img class="text-center w-50" src="assets/img/gallery/services-our1.png" alt="..." /></div>
                   <div class="col-md-7 col-lg-8">
                     <div class="card-body ps-5 p-lg-8">
-                      <h2 class="card-title mb-4 text-success">Product Revision</h2>
+                      <h2 class="card-title mb-4 text-black">Product Revision</h2>
                       <p class="card-text mb-4 fs-1 pe-xxl-8">It's not just another edge correcting service. A team trusted by more than 5,000 brands will work at your product with care and creativity.</p>
-                      <div class="d-flex flex-row"><a class="btn px-0 me-3 text-success" href="#!">View portfolio<i class="fas fa-arrow-right ms-2"></i></a><a class="btn text-success" href="#!">Pricing<i class="fas fa-arrow-right hvr-icon-forward ms-2"></i></a></div>
+                      <div class="d-flex flex-row"><a class="btn px-0 me-3 text-black" href="#!">View portfolio<i class="fas fa-arrow-right ms-2"></i></a><a class="btn text-black" href="#!">Pricing<i class="fas fa-arrow-right hvr-icon-forward ms-2"></i></a></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card mb-3 hover-top-shadow rounded-3 py-3 bg-soft-dark">
+                <div class="row g-0 flex-center">
+                  <div class="col-md-5 col-lg-4 text-center order-0"><img class="text-center w-50" src="assets/img/gallery/services-our2.png" alt="..." /></div>
+                  <div class="col-md-7 col-lg-8">
+                    <div class="card-body ps-5 p-lg-8">
+                      <h2 class="card-title mb-4 text-black">Photo Preview</h2>
+                      <p class="card-text mb-4 fs-1 pe-xxl-8">Invest on your commercial product photography on a visual story created by our creative team. Each click at the most reasonable price going to pay you more.</p>
+                      <div class="d-flex flex-row"><a class="btn px-0 me-3 text-black" href="#!">View portfolio<i class="fas fa-arrow-right ms-2"></i></a><a class="btn text-black" href="#!">Pricing<i class="fas fa-arrow-right hvr-icon-forward ms-2"></i></a></div>
                     </div>
                   </div>
                 </div>
@@ -440,17 +473,17 @@
                     <div class="col-lg-6">
                       <h3 class="mb-3 text-primary">What's the turnabout time?</h3>
                       <p class="mb-5">Generally the turnabout time depends on the scheme of pricing you are selecting. The tentative turnaround time for orders less than 100 images is up to 12 business days from the time we receive your products and payment. Reach our support to get better insight.</p>
-                      <h3 class="mb-3 text-success">What are the delivery options?</h3>
+                      <h3 class="mb-3 text-primary">What are the delivery options?</h3>
                       <p class="mb-5">Deliver your products by using the labeling with the help of any courier service or just drop it at our door step at the Biancca Studio, San Francisco.</p>
-                      <h3 class="mb-3 text-warning">Will my products be returned?</h3>
+                      <h3 class="mb-3 text-primary">Will my products be returned?</h3>
                       <p class="mb-5">That’s totally up to you. If you want the product back, then you have to include that option in registration time. Else, it will be stored in our storage and you can pick that whenever you wish.</p>
                     </div>
                     <div class="col-lg-6">
-                      <h3 class="mb-3 text-warning">Can I provide references?</h3>
+                      <h3 class="mb-3 text-primary">Can I provide references?</h3>
                       <p class="mb-5">Absolutely! If clients provide any sort of refernces, that is highly appreciated by our creative team.</p>
                       <h3 class="mb-3 text-primary">Can I be present during the shoot?</h3>
                       <p class="mb-5">Sorry, we currently do not support that under any pricing scheme. Usually any other person than the creative team is not allowed to attend the phototshoot. Otherwise, it has effects on others and time &amp; effort get wasted as we conduct the process on a fixed plan. We hope that people would understand and respect our creative process.</p>
-                      <h3 class="mb-3 text-success">Do you support revisions?</h3>
+                      <h3 class="mb-3 text-primary">Do you support revisions?</h3>
                       <p class="mb-5">Yes, based on the pricing plan, you will have several revision options. If you want to bring more than 90% change, then you will have to pay further.</p>
                     </div>
                   </div>
@@ -478,7 +511,7 @@
 
           <div class="row flex-center py-5">
             <div class="col-xxl-9 py-5 text-center">
-              <h1 class="fw-bold mb-6 fs-lg-7">Get your commercial product<br />images today that matter </h1><a class="btn btn-lg btn-warning rounded-pill" href="#">Get Started Now<i class="fas fa-check ms-2"></i></a>
+              <h1 class="fw-bold mb-6 fs-lg-7">Get your commercial product<br />images today that matter </h1><a class="btn btn-lg btn-primary rounded-pill" href="#">Get Started Now<i class="fas fa-check ms-2"></i></a>
             </div>
           </div>
         </div><!-- end of .container-->
@@ -545,11 +578,11 @@
               <p class="text-800"><i class="fas fa-envelope text-warning me-2"></i><span class="text-800">example@email.com</span></p>
               <p class="text-800"><i class="fas fa-map-marker-alt text-success me-2"></i><span class="text-800">567, Kansas,  San Francisco, USA </span></p>
             </div>
-            <div class="col-12">
+            <!-- <div class="col-12">
               <div class="text-center my-4"><a href="#!"><i class="me-4 fab fa-facebook fs-3 text-facebook"></i></a><a href="#!"> <i class="me-4 fab fa-twitter fs-3 text-twitter"></i></a><a href="#!"> <i class="me-4 fab fa-instagram fs-3 text-instagram"></i></a></div>
-            </div>
+            </div> -->
           </div>
-          <div class="border-bottom border-3"></div>
+          <div class="border-bottom border-10"></div>
           <div class="row">
             <div class="col-md-6">
               <p class="my-2 text-center text-md-start">All rights Reserved &copy; Your Company, 2021</p>
@@ -582,7 +615,8 @@
     <script src="assets/js/theme.js"></script>
 
     <!-- <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet"> -->
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600;700&amp;display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600;700&amp;display=swap" rel="stylesheet"> -->
+    <link href="https://www.dafontfree.net/embed/dW5pdmVycy1jb25kZW5zZWQmZGF0YS8yOC91LzE0NjY2MC9Vbml2ZXJzQ29uZGVuc2VkLnR0Zg" rel="stylesheet" type="text/css"/>
   </body>
 
 </html>
