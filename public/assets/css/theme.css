@@ -56,7 +56,8 @@
 
 body {
   margin: 0;
-  font-family: "PT Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", 'univers-condensed', sans-serif ;
+  font-family: 'univers-condensed', sans-serif !important;
+  /* font-family: "PT Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; */
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -81,7 +82,8 @@ hr:not([size]) {
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   margin-top: 0;
   margin-bottom: 0.5rem;
-  font-family: "PT Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: 'univers-condensed', sans-serif !important;
+  /* font-family: "PT Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; */
   font-weight: 700;
   line-height: 1.2;
   color: #212121;
@@ -6548,7 +6550,8 @@ fieldset:disabled .btn {
   z-index: 1080;
   display: block;
   margin: 0;
-  font-family: "PT Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: 'univers-condensed', sans-serif !important;
+  /* font-family: "PT Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; */
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -6661,7 +6664,8 @@ fieldset:disabled .btn {
   z-index: 1070;
   display: block;
   max-width: 276px;
-  font-family: "PT Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: 'univers-condensed', sans-serif !important;
+  /* font-family: "PT Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; */
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -7406,6 +7410,22 @@ fieldset:disabled .btn {
   z-index: 1030;
 }
 
+.fixed-gradient1 {
+  position: fixed;
+  right: 0;
+  bottom: 1;
+  left: 0;
+  z-index: 1030;
+}
+
+.fixed-gradient2 {
+  position: fixed;
+  right: 0;
+  bottom: 100;
+  left: 0;
+  z-index: 1030;
+}
+
 .sticky-top {
   position: -webkit-sticky;
   position: sticky;
@@ -7716,7 +7736,7 @@ fieldset:disabled .btn {
 }
 
 .border-bottom {
-  border-bottom: 1px solid #EEEEEE !important;
+  border-bottom: 1px solid #ffc500 !important;
 }
 
 .border-bottom-0 {
@@ -7763,8 +7783,28 @@ fieldset:disabled .btn {
   border-color: #000 !important;
 }
 
-.border-yellow {
-  border-color: #ffc500 !important;
+.only-bottom { 
+  border-left: 0 !important;
+  border-right: 0 !important;
+  border-top: 0 !important;
+}
+
+.border-gradient-yellow1 {
+  /* border-color: #ffc500 !important; */
+  border: 5px solid;
+  border-image-slice: 1;
+  border-width: 10px !important;
+  border-image-source: linear-gradient(#fde7a1, #ffd23d, #ffc500); 
+  /* background: linear-gradient(#ffc500, #ffd13b, #ffdb66);    */
+}
+
+.border-gradient-yellow2 {
+  /* border-color: #ffc500 !important; */
+  border: 5px solid;
+  border-image-slice: 1;
+  border-width: 10px !important;
+  border-image-source: linear-gradient(#ffc500, #ffd23d, #fde7a1); 
+  /* background: linear-gradient(#ffc500, #ffd13b, #ffdb66);    */
 }
 
 .border-100 {
@@ -7861,9 +7901,6 @@ fieldset:disabled .btn {
 
 .border-5 {
   border-width: 5px !important;
-}
-.border-10 {
-  border-width: 10px !important;
 }
 
 .w-25 {
@@ -9671,6 +9708,10 @@ fieldset:disabled .btn {
 
 .bg-transparent {
   background-color: transparent !important;
+}
+
+.bg-white {
+  background-color: #ffffff !important;
 }
 
 .bg-gradient {
@@ -17398,7 +17439,8 @@ p,
 .pagination,
 .valid-feedback,
 .invalid-feedback {
-  font-family: "Roboto", "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: 'univers-condensed', sans-serif !important;
+  /* font-family: "Roboto", "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; */
 }
 
 pre {
@@ -17451,11 +17493,15 @@ ul {
 |   Font family
 -----------------------------------------------*/
 .font-sans-serif {
-  font-family: "Roboto", "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+  font-family: 'univers-condensed', sans-serif !important;
+  /* font-family: "Roboto", "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; */
 }
 
 .font-base {
-  font-family: "PT Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+  font-family: 'univers-condensed', sans-serif !important;
+  /* font-family: "PT Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; */
 }
 
 /*-----------------------------------------------
@@ -18097,7 +18143,8 @@ ul {
 .terms-sidebar .nav-link {
   color: #BDBDBD;
   font-weight: 500;
-  font-family: "Roboto", "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: 'univers-condensed', sans-serif !important;
+  /* font-family: "Roboto", "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; */
 }
 
 .terms-sidebar .nav-link.active {
